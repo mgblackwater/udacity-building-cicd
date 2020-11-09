@@ -71,7 +71,7 @@ Replace the app url and execute the bash file -
 
 6. Output of streamed log files from deployed application can be view via -
 
-[Azure website](https://<app-name>.scm.azurewebsites.net/api/logs/docker) Or Stream Them
+[Azure website](https://mgblackwater-udacity-building-cicd.scm.azurewebsites.net/api/logs/docker) Or Stream Them
 
 ```
 az webapp log tail
