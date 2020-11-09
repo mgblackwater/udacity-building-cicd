@@ -79,7 +79,7 @@ Replace the app url and execute the bash file -
 az webapp log tail
 ```
 
-[Logstream](Screenshot-log-stream.png)
+![Logstream](Screenshot-log-stream.png)
 
 ## Enhancements
 
