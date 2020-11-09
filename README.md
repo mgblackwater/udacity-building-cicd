@@ -12,7 +12,7 @@ The project uses - Flask and scikit-learn to provide ML API and there is no fron
 
 ## Project Plan
 
-[Project Planning can be found on this google spreadsheet](ttps://docs.google.com/spreadsheets/d/1uivvu4tP8pS4hrBvUzjOVptkkaY-F9Z_h72sHcPnbVA/edit?usp=sharing)
+[Project Planning can be found on this google spreadsheet](https://docs.google.com/spreadsheets/d/1uivvu4tP8pS4hrBvUzjOVptkkaY-F9Z_h72sHcPnbVA/edit?usp=sharing)
 
 [Build status of the projecte can be tracked here](https://trello.com/b/nYpH9FUr/simple-project-board)
 
