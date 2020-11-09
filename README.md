@@ -8,8 +8,6 @@ The project source code is maintained on github repository and using git action 
 
 For the deployment of the project, it is automated by using azure devops pipeline to deploy directly to azure app service when the code has checked into the main branch.
 
-The project uses - Flask and scikit-learn to provide ML API and there is no frontend UI for the enduser to directly get the prediction.
-
 ## Project Plan
 
 [Project Planning can be found on this google spreadsheet](https://docs.google.com/spreadsheets/d/1uivvu4tP8pS4hrBvUzjOVptkkaY-F9Z_h72sHcPnbVA/edit?usp=sharing)
