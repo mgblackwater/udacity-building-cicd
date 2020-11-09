@@ -1,3 +1,5 @@
+![Python application test with Github Actions](https://github.com/mgblackwater/udacity-building-cicd/workflows/Python%20application%20test%20with%20Github%20Actions/badge.svg)
+
 # Overview
 
 This project expose an api to allow user to get the prediction of housing price based on pre-trained model.
@@ -10,24 +12,43 @@ The project uses - Flask and scikit-learn to provide ML API and there is no fron
 
 ## Project Plan
 
-<TODO: Project Plan
+Project Planning can be found on this google spreadsheet - https://docs.google.com/spreadsheets/d/1uivvu4tP8pS4hrBvUzjOVptkkaY-F9Z_h72sHcPnbVA/edit?usp=sharing
 
-- A link to a Trello board for the project
-- A link to a spreadsheet that includes the original and final project plan>
+Build status of the projecte can be tracked here - https://trello.com/b/nYpH9FUr/simple-project-board
 
 ## Instructions
 
 ![Architecutre](architecture-diagram.png)
 
-<TODO: Instructions for running the Python project. How could a user with no context run this project without asking you for any help. Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
+To host the application on azure to try out, please follow below steps -
 
-- Project running on Azure App Service
+1. Clone the repository
 
-- Project cloned into Azure Cloud Shell
+```
+git clone git@github.com:mgblackwater/udacity-building-cicd.git
+```
 
-- Passing tests that are displayed after running the `make all` command from the `Makefile`
+[Clone Github](Screenshot-git-clone.png)
 
-- Output of a test run
+2. Prepare the virtual environment
+
+```
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
+2. Execute make all script to install dependencies, lint and test
+
+```
+make all
+```
+
+[Make all](Screenshot-make-all.png)
+[Test Passsed](Screenshot-test-passed.png)
+
+3. Implement CI with Github Action
+
+Follow steps below to setup CI
 
 - Successful deploy of the project in Azure Pipelines. [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
 
