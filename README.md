@@ -48,9 +48,18 @@ make all
 
 3. Implement CI with Github Action
 
-Follow steps below to setup CI
+The details explaination of setting up CI using Github Action can be found here - https://docs.github.com/en/free-pro-team@latest/actions/guides/building-and-testing-python
 
-- Successful deploy of the project in Azure Pipelines. [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
+Once the new workflow is setup, the build will be triggered and it should be successfully build as below.
+
+![Github Action Build](Screenshot-github-action-ci.png)
+
+4. Configure azure devops pipeline to deploy the application to azure app service automatically
+
+[Please refer the official document from Microsoft on how to setup CI/CD on azure devops -](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
+
+![Azure devops Pipeline Status](Screenshot-azure-devops-pipeline.png)
+![Azure devops Pipeline Deploy to Azure App Service](Screenshot-azure-devops-deploy.png)
 
 - Running Azure App Service from Azure Pipelines automatic deployment
 
