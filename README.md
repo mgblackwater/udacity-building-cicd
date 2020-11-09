@@ -28,7 +28,7 @@ To host the application on azure to try out, please follow below steps -
 git clone git@github.com:mgblackwater/udacity-building-cicd.git
 ```
 
-[Clone Github](Screenshot-git-clone.png)
+![Clone Github](Screenshot-git-clone.png)
 
 2. Prepare the virtual environment
 
@@ -43,8 +43,8 @@ source .venv/bin/activate
 make all
 ```
 
-[Make all](Screenshot-make-all.png)
-[Test Passsed](Screenshot-test-passed.png)
+![Make all](Screenshot-make-all.png)
+![Test Passsed](Screenshot-test-passed.png)
 
 3. Implement CI with Github Action
 
