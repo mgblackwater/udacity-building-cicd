@@ -12,9 +12,9 @@ The project uses - Flask and scikit-learn to provide ML API and there is no fron
 
 ## Project Plan
 
-Project Planning can be found on this google spreadsheet - https://docs.google.com/spreadsheets/d/1uivvu4tP8pS4hrBvUzjOVptkkaY-F9Z_h72sHcPnbVA/edit?usp=sharing
+[Project Planning can be found on this google spreadsheet](ttps://docs.google.com/spreadsheets/d/1uivvu4tP8pS4hrBvUzjOVptkkaY-F9Z_h72sHcPnbVA/edit?usp=sharing)
 
-Build status of the projecte can be tracked here - https://trello.com/b/nYpH9FUr/simple-project-board
+[Build status of the projecte can be tracked here](https://trello.com/b/nYpH9FUr/simple-project-board)
 
 ## Instructions
 
@@ -61,24 +61,31 @@ Once the new workflow is setup, the build will be triggered and it should be suc
 ![Azure devops Pipeline Status](Screenshot-azure-devops-pipeline.png)
 ![Azure devops Pipeline Deploy to Azure App Service](Screenshot-azure-devops-deploy.png)
 
-- Running Azure App Service from Azure Pipelines automatic deployment
+5. [Use this file as a template for the deployed prediction](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn/make_predict_azure_app.sh).
 
-- Successful prediction from deployed flask app in Azure Cloud Shell. [Use this file as a template for the deployed prediction](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn/make_predict_azure_app.sh).
-  The output should look similar to this:
+Replace the app url and execute the bash file -
 
 ```bash
-udacity@Azure:~$ ./make_predict_azure_app.sh
-Port: 443
-{"prediction":[20.35373177134412]}
+./make_predict_azure_app.sh
 ```
 
-- Output of streamed log files from deployed application
+![Screenshot of prediction result](Screenshot-prediction-result.png)
 
->
+6. Output of streamed log files from deployed application can be view via -
+
+[https://<app-name>.scm.azurewebsites.net/api/logs/docker] Or Stream Them
+
+```
+az webapp log tail
+```
+
+[Logstream](Screenshot-log-stream.png)
 
 ## Enhancements
 
-<TODO: A short description of how to improve the project in the future>
+- The project can be further enhanced as per the project plan to include UI for the end user to directly access via the website as well as the API.
+
+- To integrate with the centralized logging system like elasticsearch to analyze logs to understand usage of the system
 
 ## Demo
 
