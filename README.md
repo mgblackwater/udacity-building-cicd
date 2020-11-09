@@ -87,4 +87,4 @@ az webapp log tail
 
 ## Demo
 
-<TODO: Add link Screencast on YouTube>
+https://www.youtube.com/watch?v=9Gw0i6AHD-U&feature=youtu.be
