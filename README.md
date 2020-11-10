@@ -77,11 +77,11 @@ Replace the app url and execute the bash file -
 az webapp log tail
 ```
 
+![Logstream](Screenshot-log-stream.png)
+
 7. Load test result
 
 ![Loadtest](Screenshot-locust-test.png)
-
-![Logstream](Screenshot-log-stream.png)
 
 ## Enhancements
 
